@@ -1,6 +1,6 @@
 # Device Tree for Xiaomi Redmi Note 4 & 4x (Mido)
 
-Kernel source: "https://github.com/TheScarastic/android_kernel_xiaomi_msm8953"
+Kernel source: "https://github.com/zeelog/android_kernel_xiaomi_msm8953"
 
 ## Spec Sheet
 
