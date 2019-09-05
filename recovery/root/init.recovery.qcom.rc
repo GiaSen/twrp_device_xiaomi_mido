@@ -29,6 +29,7 @@ on fs
     # symlink
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
+    export ANDROID_ROOT /system_root
 
     # Needed to make qseecomd work in recovery
     chmod 0777 /dev/qseecom
